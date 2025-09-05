@@ -12,7 +12,7 @@ public class FizzBuzzTest {
         int num = 1;
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        String result = fizzBuzz.countOff();
+        String result = fizzBuzz.countOff(num);
 
         assertThat(result).isEqualTo("1");
     }
