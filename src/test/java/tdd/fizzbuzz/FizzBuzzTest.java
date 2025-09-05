@@ -39,7 +39,7 @@ public class FizzBuzzTest {
 
     @Test
     public void should_return_Fizz_when_countOff_given_number_is_multiplication_of_three_and_five(){
-        int num = 5;
+        int num = 15;
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         String result = fizzBuzz.countOff(num);
