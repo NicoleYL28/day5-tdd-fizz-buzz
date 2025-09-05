@@ -48,7 +48,7 @@ public class FizzBuzzTest {
     }
     @Test
     public void should_return_Fizz_when_countOff_given_number_is_multiplication_of_seven(){
-        int num = 21;
+        int num = 7;
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         String result = fizzBuzz.countOff(num);
