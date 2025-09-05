@@ -34,7 +34,7 @@ public class FizzBuzzTest {
 
         String result = fizzBuzz.countOff(num);
 
-        assertThat(result).isEqualTo("Bizz");
+        assertThat(result).isEqualTo("Buzz");
     }
 
     @Test
@@ -44,7 +44,7 @@ public class FizzBuzzTest {
 
         String result = fizzBuzz.countOff(num);
 
-        assertThat(result).isEqualTo("FizzBizz");
+        assertThat(result).isEqualTo("FizzBuzz");
     }
     @Test
     public void should_return_Fizz_when_countOff_given_number_is_multiplication_of_seven(){
