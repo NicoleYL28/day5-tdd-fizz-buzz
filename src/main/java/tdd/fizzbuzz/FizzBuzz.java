@@ -5,6 +5,9 @@ public class FizzBuzz {
         if(number%3 == 0 && number%5 == 0){
             return "FizzBizz";
         }
+        if(number%3 == 0 && number%7 == 0){
+            return "FizzWhizz";
+        }
         else if(number%3 == 0){
             return "Fizz";
         } else if (number%5 == 0){

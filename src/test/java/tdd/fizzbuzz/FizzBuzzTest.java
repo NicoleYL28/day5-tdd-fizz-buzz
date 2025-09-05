@@ -63,7 +63,7 @@ public class FizzBuzzTest {
 
         String result = fizzBuzz.countOff(num);
 
-        assertThat(result).isEqualTo("Whizz");
+        assertThat(result).isEqualTo("FizzWhizz");
     }
 
 
