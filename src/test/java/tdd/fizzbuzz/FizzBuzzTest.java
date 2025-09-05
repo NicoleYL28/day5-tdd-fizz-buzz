@@ -37,5 +37,15 @@ public class FizzBuzzTest {
         assertThat(result).isEqualTo("Bizz");
     }
 
+    @Test
+    public void should_return_Fizz_when_countOff_given_number_is_multiplication_of_three_and_five(){
+        int num = 5;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.countOff(num);
+
+        assertThat(result).isEqualTo("FizzBizz");
+    }
+
 
 }
